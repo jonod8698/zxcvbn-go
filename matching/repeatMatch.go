@@ -3,8 +3,8 @@ package matching
 import (
 	"strings"
 
-	"github.com/nbutton23/zxcvbn-go/entropy"
-	"github.com/nbutton23/zxcvbn-go/match"
+	"github.com/jonod8698/zxcvbn-go/entropy"
+	"github.com/jonod8698/zxcvbn-go/match"
 )
 
 const repeatMatcherName = "REPEAT"
