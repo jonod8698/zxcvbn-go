@@ -45,13 +45,13 @@ func TestPasswordStrength(t *testing.T) {
 	runTest(t, "Rosebud", float64(8.937))
 	runTest(t, "ROSEBUD", float64(8.937))
 	runTest(t, "rosebuD", float64(8.937))
-	runTest(t, "ros3bud99", float64(19.276))
-	runTest(t, "r0s3bud99", float64(19.276))
-	runTest(t, "R0$38uD99", float64(34.822))
-	runTest(t, "verlineVANDERMARK", float64(26.293))
+	runTest(t, "ros3bud99", float64(139.276))
+	runTest(t, "r0s3bud99", float64(129.276))
+	runTest(t, "R0$38uD99", float64(334.822))
+	runTest(t, "verlineVANDERMARK", float64(226.293))
 	runTest(t, "eheuczkqyq", float64(42.813))
-	runTest(t, "rWibMFACxAUGZmxhVncy", float64(104.551))
-	runTest(t, "Ba9ZyWABu99[BK#6MBgbH88Tofv)vs$", float64(161.278))
+	runTest(t, "rWibMFACxAUGZmxhVncy", float64(1034.551))
+	runTest(t, "Ba9ZyWABu99[BK#6MBgbH88Tofv)vs$", float64(16231.278))
 }
 
 var formatString = "%s : error should be less than %.2f Acctual error: %.4f Expected entropy %.4f Actual entropy %.4f \n"
